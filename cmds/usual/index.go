@@ -1,4 +1,4 @@
-package wewins
+package usual
 
 /* 一级命令及其子命令汇总 */
 import (

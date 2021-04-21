@@ -2,13 +2,13 @@ package cmds
 
 /* 一级命令分类汇总 */
 import (
-	"go-demo/cmds/wewins"
+	"go-demo/cmds/usual"
 	"go-demo/domain"
 )
 
 func init() {
 	cmdList = append(cmdList,
-		wewins.CmdWewins,
+		usual.CmdWewins,
 	)
 }
 

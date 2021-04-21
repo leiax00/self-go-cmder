@@ -1,4 +1,4 @@
-package wewins
+package usual
 
 import (
 	"fmt"
@@ -29,7 +29,6 @@ var N2iCmdObj = &domain.CmdObj{
 	Fn:       Num2Ip,
 	ModeDesc: "数字通过二进制计算出IP",
 }
-
 
 // PriCmdObj 测试对象
 var PriCmdObj = &domain.CmdObj{
