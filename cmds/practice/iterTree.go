@@ -1,6 +1,7 @@
 package practice
 
 import (
+	"go-demo/domain"
 	"golang.org/x/tour/tree"
 )
 
@@ -14,7 +15,7 @@ func IsRoot(t *tree.Tree) bool {
 	return false
 }
 
-func findLastLeftNode(t *tree.Tree) *tree.Tree  {
+func findLastLeftNode(t *tree.Tree) *tree.Tree {
 	tmp := t
 	for t.Left != nil {
 		tmp = t.Left
@@ -27,7 +28,13 @@ func Same(t1, t2 *tree.Tree) bool {
 	return false
 }
 
-func IterTree()  {
+func IterTree() {
 	ch := make(chan int)
 	Walk(tree.New(1), ch)
+}
+
+var IterTreeCmdObj = &domain.CmdObj{
+	Mode:     "iter_tree",
+	Fn:       IterTree,
+	ModeDesc: "练习: 迭代树结构",
 }

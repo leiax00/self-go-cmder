@@ -2,6 +2,7 @@ package cmds
 
 /* 一级命令分类汇总 */
 import (
+	"go-demo/cmds/practice"
 	"go-demo/cmds/usual"
 	"go-demo/domain"
 )
@@ -9,6 +10,7 @@ import (
 func init() {
 	cmdList = append(cmdList,
 		usual.CmdUsual,
+		practice.CmdPra,
 	)
 }
 
