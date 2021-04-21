@@ -8,7 +8,7 @@ import (
 
 func init() {
 	cmdList = append(cmdList,
-		usual.CmdWewins,
+		usual.CmdUsual,
 	)
 }
 

@@ -10,9 +10,9 @@ func init() {
 		N2iCmdObj,
 		PriCmdObj,
 	)
-	CmdWewins.ParseCmdObj2Cmd(cmdList)
+	CmdUsual.ParseCmdObj2Cmd(cmdList)
 }
 
 var cmdList []*domain.CmdObj
 
-var CmdWewins = domain.NewCommand().WithBase("wewins", "wewins")
+var CmdUsual = domain.NewCommand().WithBase("usual", "usual")
