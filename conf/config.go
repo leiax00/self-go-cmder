@@ -2,8 +2,8 @@ package conf
 
 /* 命令集合汇总 */
 import (
-	"go-demo/cmds"
-	"go-demo/domain"
+	"leiax00.cn/gocmder/cmds"
+	"leiax00.cn/gocmder/domain"
 )
 
 func init() {

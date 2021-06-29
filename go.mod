@@ -1,4 +1,4 @@
-module go-demo
+module leiax00.cn/gocmder
 
 go 1.16
 

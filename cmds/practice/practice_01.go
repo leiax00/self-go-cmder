@@ -2,8 +2,8 @@ package practice
 
 import (
 	"fmt"
-	"go-demo/domain"
 	"golang.org/x/tour/pic"
+	"leiax00.cn/gocmder/domain"
 )
 
 func calc1(x int, y int) uint8 {

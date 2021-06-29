@@ -2,7 +2,7 @@ package practice
 
 /* 一级命令及其子命令汇总 */
 import (
-	"go-demo/domain"
+	"leiax00.cn/gocmder/domain"
 )
 
 func init() {

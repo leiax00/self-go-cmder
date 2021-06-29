@@ -2,7 +2,7 @@ package usual
 
 import (
 	"fmt"
-	"go-demo/domain"
+	"leiax00.cn/gocmder/domain"
 	"strconv"
 	"strings"
 )

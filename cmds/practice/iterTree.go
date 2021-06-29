@@ -1,8 +1,8 @@
 package practice
 
 import (
-	"go-demo/domain"
 	"golang.org/x/tour/tree"
+	"leiax00.cn/gocmder/domain"
 )
 
 // Walk 步进 tree t 将所有的值从 tree 发送到 channel ch。

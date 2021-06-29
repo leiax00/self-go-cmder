@@ -2,9 +2,9 @@ package cmds
 
 /* 一级命令分类汇总 */
 import (
-	"go-demo/cmds/practice"
-	"go-demo/cmds/usual"
-	"go-demo/domain"
+	"leiax00.cn/gocmder/cmds/practice"
+	"leiax00.cn/gocmder/cmds/usual"
+	"leiax00.cn/gocmder/domain"
 )
 
 func init() {
